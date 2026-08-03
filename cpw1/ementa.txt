@@ -1,0 +1,14 @@
+EMENTA
+Descrição do protocolo HTTP/HTTP2 e suas funcionalidades. 
+Linguagem de formatação HTML. Tags de formatação. 
+Tags de inclusão de objetos. Tags multimídia (Áudio e Vídeo). 
+Tags de ligação. Descrição de componentes de páginas. 
+Formulários HTML. 
+Software de autoria para páginas HTML, editores HTML. 
+Linguagem de apresentação dinâmica. 
+Introdução a formatação de estilo. 
+Validação de campos do HTML e aplicação de pattern. 
+Introdução a páginas responsivas.
+
+= pegar ultimas listas/trabalhos por email com lider = 
+= sistema de notas, data prova= -

@@ -1,0 +1,45 @@
+nav,
+header,
+section,
+aside,
+footer {
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+nav {
+    background-color: palevioletred;
+    height: 40px;
+
+}
+
+header {
+    background-color: gray;
+    height: 80px;
+    text-align: center;
+
+}
+
+section {
+    height: 200px;
+    width: 700px;
+    display: inline-block;
+    background-color: yellow;
+}
+
+#conteudo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+aside {
+    background-color: aquamarine;
+
+}
+
+footer {
+    background-color: yellow;
+    height: 40px;
+}

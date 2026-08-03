@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Observer Pattern</title>
+</head>
+
+<body>
+    <h1>Observer Pattern</h1>
+    <button onclick="publicar()">
+        Publicar vídeo
+    </button>
+    <div id="saida"></div>
+    <script>
+
+        // Classe principal (Subject)
+        class Canal {
+
+            // Executa automaticamente quando o objeto é criado
+            constructor() {
+                // Lista que guarda os inscritos
+                this.inscritos = [];
+            }
+            // Método para adicionar inscritos
+            adicionar(nome) {
+                // Adiciona o nome na lista
+                this.inscritos.push(nome);
+            }
+            // Método que envia notificações
+            notificar() {
+                // Pega a div onde as mensagens serão mostradas
+                const saida =
+                    document.getElementById("saida");
+                // Percorre todos os inscritos
+                this.inscritos.forEach(nome => {
+
+                    // Mostra mensagem na tela
+                    saida.innerHTML +=
+                        `<p>${nome} recebeu notificação!</p>`;
+                });
+            }
+        }
+
+        // Cria um novo canal
+        const canal = new Canal();
+        // Adiciona inscritos no canal
+        canal.adicionar("Marcella");
+        canal.adicionar("Rafael");
+        // Função chamada ao clicar no botão
+        function publicar() {
+            // Envia notificação para todos
+            canal.notificar();
+        }
+    </script>
+</body>
+</html>

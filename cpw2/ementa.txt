@@ -1,0 +1,86 @@
+EMENTA
+Linguagens de script de página; 
+Formulários e dados; Padrões de layout; 
+Linguagem web para inserção
+de conteúdo dinâmico. 
+Manipulação DOM. 
+JSON (JavaScript Object Notation). 
+Introdução à programação Orientada a Objetos em Javascript.
+
+= validacao data e horario- campo = 
+= validacao letra maiuscula e minuscula = 
+
+    = pegar ultimas listas/trabalhos por email com lider = 
+    = sistema de notas, data prova= 
+
+Unidade 1 – Revisão e Evolução do JavaScript
+Revisão de variáveis, funções e estruturas de controle.
+Escopo de variáveis.
+Funções anônimas e arrow functions.
+Template strings.
+Desestruturação de objetos e arrays.
+Operadores spread e rest.
+
+Unidade 2 – Manipulação do DOM
+Conceito de DOM.
+Seleção de elementos.
+Manipulação de conteúdo e atributos.
+Manipulação de estilos CSS via JavaScript.
+Criação e remoção de elementos.
+Eventos e tratamento de eventos.
+
+Unidade 3 – Formulários e Validação
+Captura de dados em formulários.
+Eventos de formulários.
+Validação nativa HTML5.
+Validação personalizada com JavaScript.
+Máscaras e tratamento de entradas.
+Feedback visual ao usuário.
+
+Unidade 4 – JSON e Persistência de Dados
+Estrutura e sintaxe JSON.
+Conversão entre objetos JavaScript e JSON.
+Armazenamento local (LocalStorage e SessionStorage).
+Persistência de preferências e configurações.
+
+Unidade 5 – Programação Orientada a Objetos em JavaScript
+Objetos e propriedades.
+Métodos.
+Classes.
+Construtores.
+Herança.
+Encapsulamento.
+Polimorfismo básico.
+Módulos JavaScript.
+
+Unidade 6 – Comunicação Assíncrona
+Conceito de programação assíncrona.
+Callbacks.
+Promises.
+Async/Await.
+Requisições HTTP utilizando Fetch API.
+Consumo de APIs REST.
+
+Unidade 7 – Padrões de Layout e Interfaces Responsivas
+Organização de interfaces web.
+Flexbox.
+CSS Grid.
+Design responsivo.
+Mobile First.
+Integração JavaScript e CSS.
+
+Unidade 8 – Conteúdo Dinâmico e Aplicações Interativas
+Atualização dinâmica de páginas.
+Renderização de listas e tabelas.
+Manipulação de dados recebidos de APIs.
+Componentização simples.
+Boas práticas de organização de código.
+
+Projeto Integrador
+Desenvolvimento de uma aplicação web interativa contendo
+Formulários validados.
+Manipulação de DOM.
+Programação Orientada a Objetos.
+Armazenamento local.
+Consumo de API externa.
+Interface responsiva.

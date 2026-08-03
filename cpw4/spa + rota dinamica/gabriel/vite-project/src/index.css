@@ -1,0 +1,58 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('https://i.pinimg.com/736x/89/78/62/897862db925e5effc63abc92056b6b72.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.Personagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+
+.Personagens h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #00d4ff;
+}
+
+
+.Personagens p {
+  font-size: 18px;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+
+.Personagens img {
+  width: 250px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #00d4ff;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0099cc;
+  transform: scale(1.05);
+}

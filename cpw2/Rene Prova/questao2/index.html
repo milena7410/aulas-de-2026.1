@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <Legend>Formulario</Legend>
+            <labeL>Nome:</labeL>
+            <input id="Nome" placeholder="Digite seu nome">
+            <br>
+            <labeL>Soobrenome:</labeL>
+            <input id="Sobrenome" placeholder="Digite seu sobrenome">
+            <br>
+            <labeL>CPF:</labeL>
+            <input id="CPF" placeholder="Digite seu CPF">
+            <br>
+            <labeL>Telefone:</labeL>
+            <input id="Telefone" placeholder="">
+            <br>
+            <labeL>Endereço:</labeL>
+            <input id="Endereço" placeholder="Digite seu endereço...">
+            <br>
+            <labeL>Idade:</labeL>
+            <input id="Idade" placeholder="Informe sua idade...">
+            <br>
+            <labeL>E-mail:</labeL>
+            <input id="Email" placeholder="Digite um Email valido!">
+            <br>
+        </fieldset>
+        <br>
+        <fieldset><Legend>Minhas informações</Legend>
+            <p id="Exibidor"></p>
+        </fieldset>
+    </form>
+    <button onclick="validando()">Enviar</button>
+    <script src="script.js"></script>
+</body>
+</html>

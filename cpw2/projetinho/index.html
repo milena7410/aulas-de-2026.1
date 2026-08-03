@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="conteudo">
+<label for=""></label>
+  <input id="nome">
+    <input type="date" id="nascimento"> 
+
+    <button onclick="mostrar()">
+        Mostrar
+    </button>
+    <p id="resultado"></p>
+    </div>
+  
+
+    <script>
+        function mostrar() {
+            let nome = document.getElementById("nome").value;
+            let data =  document.getElementById("nascimento").value;
+           
+             nome = nome.charAt(0).toUpperCase() + nome.slice(1).toLowerCase();
+             //let dataBR = data.toLocaleDateString("pt-BR");
+
+            let partes = data.split("-");
+
+            let dataBR =
+                partes[2] + "/" +
+                partes[1] + "/" +
+                 partes[0];
+
+            document.getElementById("resultado").innerHTML ="oiiee " + nome + " voce nasceu em: "+ dataBR;
+        }
+
+    </script>
+
+</body>
+</html>

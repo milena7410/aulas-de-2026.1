@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Pagamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Pagamento</h1>
+
+        <div class="campo">
+            <label>Forma de pagamento</label>
+
+            <select id="tipoPagamento">
+                <option value="cartao">Cartão</option>
+                <option value="pix">PIX</option>
+                <option value="boleto">Boleto</option>
+                <option value="paypal">PayPal</option>
+                <option value="criptomoeda">Criptomoeda</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label>Valor</label>
+            <input type="number" id="valor" placeholder="Digite o valor">
+        </div>
+
+        <button onclick="realizarPagamento()">
+            Processar Pagamento
+        </button>
+
+        <div id="resultado"></div>
+
+    </div>
+
+    <script src="Exemplo1.js"></script>
+
+</body>
+</html>

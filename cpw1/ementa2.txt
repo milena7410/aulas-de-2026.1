@@ -1,0 +1,187 @@
+Unidade 1 – Fundamentos da Web
+
+Aula 1 – Introdução à Web
+
+Como funciona a Internet
+Cliente x Servidor
+Navegadores
+Estrutura de um site
+
+Aula 2 – HTTP e HTTP/2
+
+O que é protocolo HTTP
+Métodos GET e POST
+Requisição e resposta
+Códigos de status
+Melhorias do HTTP/2
+Unidade 2 – HTML Básico
+
+Aula 3 – Estrutura de um documento HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+Primeiro site
+
+Aula 4 – Tags de texto
+
+Títulos (h1 a h6)
+Parágrafos
+Quebras de linha
+Negrito e itálico
+Comentários
+
+Aula 5 – Listas e organização
+
+Listas ordenadas
+Listas não ordenadas
+Listas de definição
+Unidade 3 – Componentes de Página
+
+Aula 6 – Componentes estruturais
+
+header
+main
+section
+article
+aside
+footer
+
+Aula 7 – Tabelas
+
+Criação de tabelas
+Cabeçalhos
+Mesclagem de células
+Unidade 4 – Objetos e Multimídia
+
+Aula 8 – Imagens
+
+Tag img
+Caminhos relativos
+Atributos importantes
+
+Aula 9 – Áudio e Vídeo
+
+Tag audio
+Tag video
+Controles multimídia
+
+Aula 10 – Links e Navegação
+
+Tag a
+Links internos
+Links externos
+Navegação entre páginas
+Unidade 5 – Formulários
+
+Aula 11 – Introdução a Formulários
+
+Tag form
+Campos de entrada
+Botões
+
+Aula 12 – Tipos de Inputs
+
+text
+number
+email
+password
+date
+radio
+checkbox
+
+Aula 13 – Select, Textarea e Fieldset
+
+Combos
+Áreas de texto
+Organização de formulários
+Unidade 6 – Validação
+
+Aula 14 – Validação HTML
+
+required
+minlength
+maxlength
+min e max
+
+Aula 15 – Pattern
+
+Expressões regulares básicas
+CPF
+CEP
+Telefone
+Senha
+Unidade 7 – CSS
+
+Aula 16 – Introdução ao CSS
+
+CSS inline
+Interno
+Externo
+Seletores
+
+Aula 17 – Formatação de Texto
+
+Cor
+Fonte
+Tamanho
+Alinhamento
+
+Aula 18 – Box Model
+
+Margin
+Padding
+Border
+
+Aula 19 – Layout com Flexbox
+
+Containers
+Alinhamentos
+Distribuição
+Unidade 8 – Responsividade
+
+Aula 20 – Introdução a Responsividade
+
+Viewport
+Medidas relativas
+Imagens responsivas
+
+Aula 21 – Media Queries
+
+Breakpoints
+Adaptação para celular
+Unidade 9 – Ferramentas
+
+Aula 22 – Editores HTML
+
+VS Code
+Extensões úteis
+Live Server
+
+Aula 23 – Validação e Inspeção
+
+DevTools
+Validador HTML
+Boas práticas
+Unidade 10 – Projeto Final
+
+Aula 24 – Desenvolvimento do Projeto
+
+Planejamento
+Wireframe
+
+Aula 25 – Implementação
+
+Construção do site
+
+Aula 26 – Apresentação dos Projetos
+
+Avaliação final
+
+Projeto final sugerido:
+
+Site de currículo
+Site de uma empresa fictícia
+Site de evento (Festa Junina, Semana Acadêmica, etc.)
+Portfólio pessoal

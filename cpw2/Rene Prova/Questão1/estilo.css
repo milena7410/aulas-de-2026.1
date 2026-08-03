@@ -1,0 +1,21 @@
+nav,
+header,
+section,
+aside,
+footer{
+    margin: 20px;
+    border: 5px solid black;
+    
+}
+nav{
+    display: grid;
+    padding: 10px;
+    color: blue;
+}
+header{
+    padding: 25px;
+}
+section{
+
+
+}
