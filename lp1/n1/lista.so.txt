@@ -1,0 +1,23 @@
+Conceitos iniciais
+Explique o que é um Sistema Operacional e qual sua função no computador.
+Descreva a diferença entre hardware e software.
+Explique por que o Sistema Operacional é essencial para o funcionamento do computador.
+Liste os estados de um processo
+Cite 5  exemplos de sistemas operacionais.
+Conceitos iniciais
+Explique o que é o Prompt de Comando e para que ele serve.
+Descreva a diferença entre usar interface gráfica e usar linha de comando.
+Explique o que é um comando no Prompt.
+ Navegação no sistema
+Explique para que serve o comando dir.
+Descreva a função do comando cd.
+ System Calls
+Descreva o papel das System Calls na execução de um programa.
+Dê dois exemplos de operações que utilizam System Calls.
+Conceitos + Kernel
+Explique como o Sistema Operacional atua como intermediário entre usuário e hardware.
+Descreva o que aconteceria se não existisse o Kernel em um sistema operacional.
+Explique por que os programas não acessam diretamente o hardware.
+Processos
+Explique o que é um processo.
+Diferencie programa e processo.
